@@ -25,7 +25,6 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
 _*${ucapanWaktu} ${pushname !== undefined ? pushname : 'Kak'} 👋*_
 
  *INFO BOT*
- Library : *Baileys-MD*
  Tanggal Server : ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}
  *WIB* : ${moment(Date.now()).tz('Asia/Jakarta').locale('id').format('HH:mm:ss z')}
  *WITA* : ${moment(Date.now()).tz('Asia/Makassar').locale('id').format('HH:mm:ss z')}
@@ -37,285 +36,285 @@ _*${ucapanWaktu} ${pushname !== undefined ? pushname : 'Kak'} 👋*_
  Limit Game : ${isOwner ? '-' : cekGLimit(sender, gcount, glimit)}
  Balance : $${toCommas(getBalance(sender, balance))}
  ${readmore}
- ${setting.sb2} *MAIN MENU*
- ${setting.sb} ${prefix}menu
- ${setting.sb} ${prefix}owner
- ${setting.sb} ${prefix}donasi
- ${setting.sb} ${prefix}speed
- ${setting.sb} ${prefix}runtime
- ${setting.sb} ${prefix}cekprem
- ${setting.sb} ${prefix}listprem
- ${setting.sb} ${prefix}listban
- ${setting.sb} ${prefix}listsewa
- ${setting.sb} ${prefix}join
- ${setting.sb} ${prefix}sewabot
- ${setting.sb} ${prefix}delete
- ${setting.sb} ${prefix}sourcecode
- ${setting.sb} ${prefix}tagme
- ${setting.sb} ${prefix}infobalance
- ${setting.sb} ${prefix}tukarprem
+  *MAIN MENU*
+  ${prefix}menu
+  ${prefix}owner
+  ${prefix}donasi
+  ${prefix}speed
+  ${prefix}runtime
+  ${prefix}cekprem
+  ${prefix}listprem
+  ${prefix}listban
+  ${prefix}listsewa
+  ${prefix}join
+  ${prefix}sewabot
+  ${prefix}delete
+  ${prefix}sourcecode
+  ${prefix}tagme
+  ${prefix}infobalance
+  ${prefix}tukarprem
 
- ${setting.sb2} *CONVERTER & TOOLS*
- ${setting.sb} ${prefix}sticker
- ${setting.sb} ${prefix}toimg
- ${setting.sb} ${prefix}tovid
- ${setting.sb} ${prefix}blur
- ${setting.sb} ${prefix}attp
- ${setting.sb} ${prefix}ttp
- ${setting.sb} ${prefix}ttp2
- ${setting.sb} ${prefix}ttp3
- ${setting.sb} ${prefix}ttp4
- ${setting.sb} ${prefix}ttp5
- ${setting.sb} ${prefix}ttp6
- ${setting.sb} ${prefix}urltoimg
- ${setting.sb} ${prefix}randomstick
- ${setting.sb} ${prefix}patrick
- ${setting.sb} ${prefix}amongus
- ${setting.sb} ${prefix}gurastick
- ${setting.sb} ${prefix}anjingstick
- ${setting.sb} ${prefix}bucinstick
+  *CONVERTER & TOOLS*
+  ${prefix}sticker
+  ${prefix}toimg
+  ${prefix}tovid
+  ${prefix}blur
+  ${prefix}attp
+  ${prefix}ttp
+  ${prefix}ttp2
+  ${prefix}ttp3
+  ${prefix}ttp4
+  ${prefix}ttp5
+  ${prefix}ttp6
+  ${prefix}urltoimg
+  ${prefix}randomstick
+  ${prefix}patrick
+  ${prefix}amongus
+  ${prefix}gurastick
+  ${prefix}anjingstick
+  ${prefix}bucinstick
 
- ${setting.sb2} *DOWNLOADER*
- ${setting.sb} ${prefix}play
- ${setting.sb} ${prefix}tiktok
- ${setting.sb} ${prefix}ytmp4
- ${setting.sb} ${prefix}ytmp3
- ${setting.sb} ${prefix}getvideo
- ${setting.sb} ${prefix}getmusic
- ${setting.sb} ${prefix}instagram
- ${setting.sb} ${prefix}mediafire
+  *DOWNLOADER*
+  ${prefix}play
+  ${prefix}tiktok
+  ${prefix}ytmp4
+  ${prefix}ytmp3
+  ${prefix}getvideo
+  ${prefix}getmusic
+  ${prefix}instagram
+  ${prefix}mediafire
 
- ${setting.sb2} *SHORTLINK MENU*
- ${setting.sb} ${prefix}shortlink
- ${setting.sb} ${prefix}cuttly
- ${setting.sb} ${prefix}bitly
- ${setting.sb} ${prefix}tinyurl
- ${setting.sb} ${prefix}tinyurlprem
+  *SHORTLINK MENU*
+  ${prefix}shortlink
+  ${prefix}cuttly
+  ${prefix}bitly
+  ${prefix}tinyurl
+  ${prefix}tinyurlprem
   
- ${setting.sb2} *RANDOM MENU*
- ${setting.sb} ${prefix}quote
- ${setting.sb} ${prefix}galau
- ${setting.sb} ${prefix}bucin
- ${setting.sb} ${prefix}gombal
- ${setting.sb} ${prefix}cecan
- ${setting.sb} ${prefix}cogan
- ${setting.sb} ${prefix}artinama
- ${setting.sb} ${prefix}artimimpi
- ${setting.sb} ${prefix}darkjokes
- ${setting.sb} ${prefix}quotesmaker
- ${setting.sb} ${prefix}asupan
- ${setting.sb} ${prefix}jadwalsholat
+  *RANDOM MENU*
+  ${prefix}quote
+  ${prefix}galau
+  ${prefix}bucin
+  ${prefix}gombal
+  ${prefix}cecan
+  ${prefix}cogan
+  ${prefix}artinama
+  ${prefix}artimimpi
+  ${prefix}darkjokes
+  ${prefix}quotesmaker
+  ${prefix}asupan
+  ${prefix}jadwalsholat
 
- ${setting.sb2} *EDUCATION MENU*
- ${setting.sb} ${prefix}persegipanjang
- ${setting.sb} ${prefix}perkalian
- ${setting.sb} ${prefix}kuadrat
- ${setting.sb} ${prefix}kubik
- ${setting.sb} ${prefix}brainly
+  *EDUCATION MENU*
+  ${prefix}persegipanjang
+  ${prefix}perkalian
+  ${prefix}kuadrat
+  ${prefix}kubik
+  ${prefix}brainly
 
- ${setting.sb2} *STORE MENU*
- ${setting.sb} ${prefix}listff
- ${setting.sb} ${prefix}iklan
- ${setting.sb} proses
- ${setting.sb} done
+  *STORE MENU*
+  ${prefix}listff
+  ${prefix}iklan
+  proses
+  done
   
- ${setting.sb2} *SEARCH MENU*
- ${setting.sb} ${prefix}lirik
- ${setting.sb} ${prefix}grupwa
- ${setting.sb} ${prefix}ytsearch
- ${setting.sb} ${prefix}gsmarena
- ${setting.sb} ${prefix}wallsearch
- ${setting.sb} ${prefix}googleimage
- ${setting.sb} ${prefix}playstore
- ${setting.sb} ${prefix}gimage
+  *SEARCH MENU*
+  ${prefix}lirik
+  ${prefix}grupwa
+  ${prefix}ytsearch
+  ${prefix}gsmarena
+  ${prefix}wallsearch
+  ${prefix}googleimage
+  ${prefix}playstore
+  ${prefix}gimage
 
- ${setting.sb2} *SPAM MENU*
- ${setting.sb} ${prefix}spamcall
- ${setting.sb} ${prefix}spamsms
- ${setting.sb} ${prefix}spamsms2
- ${setting.sb} ${prefix}spamsms3
- ${setting.sb} ${prefix}spamsms4
- ${setting.sb} ${prefix}spamsms5
- ${setting.sb} ${prefix}spamsms6
- ${setting.sb} ${prefix}spamsms7
- ${setting.sb} ${prefix}spamsms8
+  *SPAM MENU*
+  ${prefix}spamcall
+  ${prefix}spamsms
+  ${prefix}spamsms2
+  ${prefix}spamsms3
+  ${prefix}spamsms4
+  ${prefix}spamsms5
+  ${prefix}spamsms6
+  ${prefix}spamsms7
+  ${prefix}spamsms8
  
- ${setting.sb2} *SERTIFIKAT MENU*
- ${setting.sb} ${prefix}tololserti
- ${setting.sb} ${prefix}fuckboy
- ${setting.sb} ${prefix}fuckgirl
- ${setting.sb} ${prefix}bucinserti
- ${setting.sb} ${prefix}pacarserti
- ${setting.sb} ${prefix}goodboy
- ${setting.sb} ${prefix}goodgirl
- ${setting.sb} ${prefix}badboy
- ${setting.sb} ${prefix}badgirl
+  *SERTIFIKAT MENU*
+  ${prefix}tololserti
+  ${prefix}fuckboy
+  ${prefix}fuckgirl
+  ${prefix}bucinserti
+  ${prefix}pacarserti
+  ${prefix}goodboy
+  ${prefix}goodgirl
+  ${prefix}badboy
+  ${prefix}badgirl
 
- ${setting.sb2} *TEXT PRO MENU*
- ${setting.sb} ${prefix}berry
- ${setting.sb} ${prefix}blackpink
- ${setting.sb} ${prefix}neon
- ${setting.sb} ${prefix}logobear
- ${setting.sb} ${prefix}christmas
- ${setting.sb} ${prefix}box3d
- ${setting.sb} ${prefix}glitchtiktok
- ${setting.sb} ${prefix}videogame
- ${setting.sb} ${prefix}marvel
- ${setting.sb} ${prefix}ninjalogo
- ${setting.sb} ${prefix}greenhorror
- ${setting.sb} ${prefix}magma
- ${setting.sb} ${prefix}neon3d
- ${setting.sb} ${prefix}orangejuice
- ${setting.sb} ${prefix}chococake
- ${setting.sb} ${prefix}strawberry
- ${setting.sb} ${prefix}pencil
- ${setting.sb} ${prefix}thunder
- ${setting.sb} ${prefix}thunder2
- ${setting.sb} ${prefix}glitch
- ${setting.sb} ${prefix}glitch2
- ${setting.sb} ${prefix}greenneon
- ${setting.sb} ${prefix}skeleton
+  *TEXT PRO MENU*
+  ${prefix}berry
+  ${prefix}blackpink
+  ${prefix}neon
+  ${prefix}logobear
+  ${prefix}christmas
+  ${prefix}box3d
+  ${prefix}glitchtiktok
+  ${prefix}videogame
+  ${prefix}marvel
+  ${prefix}ninjalogo
+  ${prefix}greenhorror
+  ${prefix}magma
+  ${prefix}neon3d
+  ${prefix}orangejuice
+  ${prefix}chococake
+  ${prefix}strawberry
+  ${prefix}pencil
+  ${prefix}thunder
+  ${prefix}thunder2
+  ${prefix}glitch
+  ${prefix}glitch2
+  ${prefix}greenneon
+  ${prefix}skeleton
  
- ${setting.sb2} *PHOTOOXY MENU*
- ${setting.sb} ${prefix}flaming
- ${setting.sb} ${prefix}shadowsky
- ${setting.sb} ${prefix}narutomaker
- ${setting.sb} ${prefix}pubg
- ${setting.sb} ${prefix}undergrass
- ${setting.sb} ${prefix}harrypotter
- ${setting.sb} ${prefix}typography
- ${setting.sb} ${prefix}poflove
- ${setting.sb} ${prefix}coffecup
- ${setting.sb} ${prefix}nightsky
- ${setting.sb} ${prefix}carvedwood
- ${setting.sb} ${prefix}illuminated
- ${setting.sb} ${prefix}sweetcandy
+  *PHOTOOXY MENU*
+  ${prefix}flaming
+  ${prefix}shadowsky
+  ${prefix}narutomaker
+  ${prefix}pubg
+  ${prefix}undergrass
+  ${prefix}harrypotter
+  ${prefix}typography
+  ${prefix}poflove
+  ${prefix}coffecup
+  ${prefix}nightsky
+  ${prefix}carvedwood
+  ${prefix}illuminated
+  ${prefix}sweetcandy
  
- ${setting.sb2} *EPHOTO 360 MENU*
- ${setting.sb} ${prefix}randomcerti
- ${setting.sb} ${prefix}gplaybutton
- ${setting.sb} ${prefix}splaybutton
- ${setting.sb} ${prefix}igcertificate
- ${setting.sb} ${prefix}ffbanner
- ${setting.sb} ${prefix}cgravity
- ${setting.sb} ${prefix}hacker
- ${setting.sb} ${prefix}mlwall
- ${setting.sb} ${prefix}pubgmaskot
- ${setting.sb} ${prefix}aovwall
- ${setting.sb} ${prefix}gaminglogo
- ${setting.sb} ${prefix}fpslogo
- ${setting.sb} ${prefix}avatarlolnew
- ${setting.sb} ${prefix}lolbanner
- ${setting.sb} ${prefix}avatardota
- ${setting.sb} ${prefix}bflowera
- ${setting.sb} ${prefix}royaltext
- ${setting.sb} ${prefix}galaxystyle
- ${setting.sb} ${prefix}birthdaycake
- ${setting.sb} ${prefix}lighttext
- ${setting.sb} ${prefix}watercolor
- ${setting.sb} ${prefix}multicolor
- ${setting.sb} ${prefix}wetglass
- ${setting.sb} ${prefix}luxurygold
- ${setting.sb} ${prefix}heartshaped
- ${setting.sb} ${prefix}hologram3d
- ${setting.sb} ${prefix}gchrome
- ${setting.sb} ${prefix}greenbush
- ${setting.sb} ${prefix}metallogo
- ${setting.sb} ${prefix}starsnight
+  *EPHOTO 360 MENU*
+  ${prefix}randomcerti
+  ${prefix}gplaybutton
+  ${prefix}splaybutton
+  ${prefix}igcertificate
+  ${prefix}ffbanner
+  ${prefix}cgravity
+  ${prefix}hacker
+  ${prefix}mlwall
+  ${prefix}pubgmaskot
+  ${prefix}aovwall
+  ${prefix}gaminglogo
+  ${prefix}fpslogo
+  ${prefix}avatarlolnew
+  ${prefix}lolbanner
+  ${prefix}avatardota
+  ${prefix}bflowera
+  ${prefix}royaltext
+  ${prefix}galaxystyle
+  ${prefix}birthdaycake
+  ${prefix}lighttext
+  ${prefix}watercolor
+  ${prefix}multicolor
+  ${prefix}wetglass
+  ${prefix}luxurygold
+  ${prefix}heartshaped
+  ${prefix}hologram3d
+  ${prefix}gchrome
+  ${prefix}greenbush
+  ${prefix}metallogo
+  ${prefix}starsnight
  
- ${setting.sb2} *ANIME MENU*
- ${setting.sb} ${prefix}naruto
- ${setting.sb} ${prefix}yaoi
- ${setting.sb} ${prefix}loli
- ${setting.sb} ${prefix}waifu
- ${setting.sb} ${prefix}husbu
+  *ANIME MENU*
+  ${prefix}naruto
+  ${prefix}yaoi
+  ${prefix}loli
+  ${prefix}waifu
+  ${prefix}husbu
  
- ${setting.sb2} *STALK MENU*
- ${setting.sb} ${prefix}ghstalk
- ${setting.sb} ${prefix}igstalk
- ${setting.sb} ${prefix}tiktokstalk
- ${setting.sb} ${prefix}stalkml
- ${setting.sb} ${prefix}stalkff
- ${setting.sb} ${prefix}stalkgenshin
- ${setting.sb} ${prefix}stalkcod
- ${setting.sb} ${prefix}stalkdomino
- ${setting.sb} ${prefix}stalkpubg
- ${setting.sb} ${prefix}stalksausage
+  *STALK MENU*
+  ${prefix}ghstalk
+  ${prefix}igstalk
+  ${prefix}tiktokstalk
+  ${prefix}stalkml
+  ${prefix}stalkff
+  ${prefix}stalkgenshin
+  ${prefix}stalkcod
+  ${prefix}stalkdomino
+  ${prefix}stalkpubg
+  ${prefix}stalksausage
  
- ${setting.sb2} *GAME & FUN MENU*
- ${setting.sb} ${prefix}duithoki
- ${setting.sb} ${prefix}tictactoe
- ${setting.sb} ${prefix}delttc
- ${setting.sb} ${prefix}tebakgambar
- ${setting.sb} ${prefix}caklontong
- ${setting.sb} ${prefix}asahotak
- ${setting.sb} ${prefix}tebakjenaka
- ${setting.sb} ${prefix}tebakbendera
- ${setting.sb} ${prefix}siapakahaku
- ${setting.sb} ${prefix}susunkata
- ${setting.sb} ${prefix}dadu
+  *GAME & FUN MENU*
+  ${prefix}duithoki
+  ${prefix}tictactoe
+  ${prefix}delttc
+  ${prefix}tebakgambar
+  ${prefix}caklontong
+  ${prefix}asahotak
+  ${prefix}tebakjenaka
+  ${prefix}tebakbendera
+  ${prefix}siapakahaku
+  ${prefix}susunkata
+  ${prefix}dadu
   
- ${setting.sb2} *PAYMENT & BANK*
- ${setting.sb} ${prefix}buylimit
- ${setting.sb} ${prefix}buyglimit
- ${setting.sb} ${prefix}transfer
- ${setting.sb} ${prefix}limit
- ${setting.sb} ${prefix}balance
+  *PAYMENT & BANK*
+  ${prefix}buylimit
+  ${prefix}buyglimit
+  ${prefix}transfer
+  ${prefix}limit
+  ${prefix}balance
   
- ${setting.sb2} *GROUP MENU*
- ${setting.sb} ${prefix}groupsetting
- ${setting.sb} ${prefix}antilink
- ${setting.sb} ${prefix}welcome
- ${setting.sb} ${prefix}linkgrup
- ${setting.sb} ${prefix}setppgrup
- ${setting.sb} ${prefix}setnamegc
- ${setting.sb} ${prefix}setdesc
- ${setting.sb} ${prefix}group
- ${setting.sb} ${prefix}revoke
- ${setting.sb} ${prefix}hidetag
- ${setting.sb} ${prefix}tagall
- ${setting.sb} ${prefix}listadmin
- ${setting.sb} ${prefix}infogc
- ${setting.sb} ${prefix}promote
- ${setting.sb} ${prefix}demote
- ${setting.sb} ${prefix}add
- ${setting.sb} ${prefix}kick
- ${setting.sb} ${prefix}mute
+  *GROUP MENU*
+  ${prefix}groupsetting
+  ${prefix}antilink
+  ${prefix}welcome
+  ${prefix}linkgrup
+  ${prefix}setppgrup
+  ${prefix}setnamegc
+  ${prefix}setdesc
+  ${prefix}group
+  ${prefix}revoke
+  ${prefix}hidetag
+  ${prefix}tagall
+  ${prefix}listadmin
+  ${prefix}infogc
+  ${prefix}promote
+  ${prefix}demote
+  ${prefix}add
+  ${prefix}kick
+  ${prefix}mute
   
- ${setting.sb2} *OWNER MENU*
+  *OWNER MENU*
  > evalcode
  x evalcode-2
  $ executor
- ${setting.sb} ${prefix}addbalance
- ${setting.sb} ${prefix}addlimit
- ${setting.sb} ${prefix}addglimit
- ${setting.sb} ${prefix}textchat
- ${setting.sb} ${prefix}chatprem
- ${setting.sb} ${prefix}setprefix
- ${setting.sb} ${prefix}masuk
- ${setting.sb} ${prefix}broadcast
- ${setting.sb} ${prefix}setppbot
- ${setting.sb} ${prefix}exif
- ${setting.sb} ${prefix}leave
- ${setting.sb} ${prefix}addprem
- ${setting.sb} ${prefix}delprem
- ${setting.sb} ${prefix}ban
- ${setting.sb} ${prefix}unban
- ${setting.sb} ${prefix}mode
- ${setting.sb} ${prefix}addsewa
- ${setting.sb} ${prefix}delsewa
- ${setting.sb} ${prefix}block
- ${setting.sb} ${prefix}unblock
+  ${prefix}addbalance
+  ${prefix}addlimit
+  ${prefix}addglimit
+  ${prefix}textchat
+  ${prefix}chatprem
+  ${prefix}setprefix
+  ${prefix}masuk
+  ${prefix}broadcast
+  ${prefix}setppbot
+  ${prefix}exif
+  ${prefix}leave
+  ${prefix}addprem
+  ${prefix}delprem
+  ${prefix}ban
+  ${prefix}unban
+  ${prefix}mode
+  ${prefix}addsewa
+  ${prefix}delsewa
+  ${prefix}block
+  ${prefix}unblock
 
-${setting.sb2} *OTHER MENU*
- ${setting.sb} ${prefix}readmore
- ${setting.sb} ${prefix}getpp
- ${setting.sb} ${prefix}tts
- ${setting.sb} ${prefix}ppcp
- ${setting.sb} ${prefix}kontak
- ${setting.sb} ${prefix}covidglobal
- ${setting.sb} ${prefix}infogempa
- ${setting.sb} ${prefix}profile
+ *OTHER MENU*
+  ${prefix}readmore
+  ${prefix}getpp
+  ${prefix}tts
+  ${prefix}ppcp
+  ${prefix}kontak
+  ${prefix}covidglobal
+  ${prefix}infogempa
+  ${prefix}profile
 
 \`\`\`${setting.botName} By ${setting.ownerName}\`\`\`
 `
@@ -363,361 +362,361 @@ exports.iklanc = (pushname, ownerName) => {
 exports.mainmenu = (prefix, pushname) => {
 	return `_*${ucapanWaktu} ${pushname !== undefined ? pushname : 'Kak'} 👋*_
 
- ${setting.sb2} *MAIN MENU*
- ${setting.sb} ${prefix}menu
- ${setting.sb} ${prefix}owner
- ${setting.sb} ${prefix}donasi
- ${setting.sb} ${prefix}speed
- ${setting.sb} ${prefix}runtime
- ${setting.sb} ${prefix}cekprem
- ${setting.sb} ${prefix}listprem
- ${setting.sb} ${prefix}listban
- ${setting.sb} ${prefix}listsewa
- ${setting.sb} ${prefix}join
- ${setting.sb} ${prefix}sewabot
- ${setting.sb} ${prefix}delete
- ${setting.sb} ${prefix}sourcecode
- ${setting.sb} ${prefix}tagme
- ${setting.sb} ${prefix}infobalance
- ${setting.sb} ${prefix}tukarprem
+  *MAIN MENU*
+  ${prefix}menu
+  ${prefix}owner
+  ${prefix}donasi
+  ${prefix}speed
+  ${prefix}runtime
+  ${prefix}cekprem
+  ${prefix}listprem
+  ${prefix}listban
+  ${prefix}listsewa
+  ${prefix}join
+  ${prefix}sewabot
+  ${prefix}delete
+  ${prefix}sourcecode
+  ${prefix}tagme
+  ${prefix}infobalance
+  ${prefix}tukarprem
 `
 }
 exports.convertmenu = (prefix, pushname) => {
 	return `_*${ucapanWaktu} ${pushname !== undefined ? pushname : 'Kak'} 👋*_
 
- ${setting.sb2} *CONVERTER & TOOLS*
- ${setting.sb} ${prefix}sticker
- ${setting.sb} ${prefix}toimg
- ${setting.sb} ${prefix}tovid
- ${setting.sb} ${prefix}blur
- ${setting.sb} ${prefix}attp
- ${setting.sb} ${prefix}ttp
- ${setting.sb} ${prefix}ttp2
- ${setting.sb} ${prefix}ttp3
- ${setting.sb} ${prefix}ttp4
- ${setting.sb} ${prefix}ttp5
- ${setting.sb} ${prefix}ttp6
- ${setting.sb} ${prefix}urltoimg
- ${setting.sb} ${prefix}randomstick
- ${setting.sb} ${prefix}patrick
- ${setting.sb} ${prefix}amongus
- ${setting.sb} ${prefix}gurastick
- ${setting.sb} ${prefix}anjingstick
- ${setting.sb} ${prefix}bucinstick
+  *CONVERTER & TOOLS*
+  ${prefix}sticker
+  ${prefix}toimg
+  ${prefix}tovid
+  ${prefix}blur
+  ${prefix}attp
+  ${prefix}ttp
+  ${prefix}ttp2
+  ${prefix}ttp3
+  ${prefix}ttp4
+  ${prefix}ttp5
+  ${prefix}ttp6
+  ${prefix}urltoimg
+  ${prefix}randomstick
+  ${prefix}patrick
+  ${prefix}amongus
+  ${prefix}gurastick
+  ${prefix}anjingstick
+  ${prefix}bucinstick
 `
 }
 exports.downloadmenu = (prefix, pushname) => {
 	return `_*${ucapanWaktu} ${pushname !== undefined ? pushname : 'Kak'} 👋*_
 
- ${setting.sb2} *DOWNLOADER MENU*
- ${setting.sb} ${prefix}play
- ${setting.sb} ${prefix}tiktok
- ${setting.sb} ${prefix}ytmp4
- ${setting.sb} ${prefix}ytmp3
- ${setting.sb} ${prefix}getvideo
- ${setting.sb} ${prefix}getmusic
- ${setting.sb} ${prefix}instagram
- ${setting.sb} ${prefix}mediafire
+  *DOWNLOADER MENU*
+  ${prefix}play
+  ${prefix}tiktok
+  ${prefix}ytmp4
+  ${prefix}ytmp3
+  ${prefix}getvideo
+  ${prefix}getmusic
+  ${prefix}instagram
+  ${prefix}mediafire
 `
 }
 exports.shortlinkmenu = (prefix, pushname) => {
 	return `_*${ucapanWaktu} ${pushname !== undefined ? pushname : 'Kak'} 👋*_
 
- ${setting.sb2} *SHORTLINK MENU*
- ${setting.sb} ${prefix}shortlink
- ${setting.sb} ${prefix}cuttly
- ${setting.sb} ${prefix}bitly
- ${setting.sb} ${prefix}tinyurl
- ${setting.sb} ${prefix}tinyurlprem
+  *SHORTLINK MENU*
+  ${prefix}shortlink
+  ${prefix}cuttly
+  ${prefix}bitly
+  ${prefix}tinyurl
+  ${prefix}tinyurlprem
 `
 }
 exports.randommenu = (prefix, pushname) => {
 	return `_*${ucapanWaktu} ${pushname !== undefined ? pushname : 'Kak'} 👋*_
 
- ${setting.sb2} *RANDOM MENU*
- ${setting.sb} ${prefix}quote
- ${setting.sb} ${prefix}galau
- ${setting.sb} ${prefix}bucin
- ${setting.sb} ${prefix}gombal
- ${setting.sb} ${prefix}cecan
- ${setting.sb} ${prefix}cogan
- ${setting.sb} ${prefix}artinama
- ${setting.sb} ${prefix}artimimpi
- ${setting.sb} ${prefix}darkjokes
- ${setting.sb} ${prefix}quotesmaker
- ${setting.sb} ${prefix}asupan
- ${setting.sb} ${prefix}jadwalsholat
+  *RANDOM MENU*
+  ${prefix}quote
+  ${prefix}galau
+  ${prefix}bucin
+  ${prefix}gombal
+  ${prefix}cecan
+  ${prefix}cogan
+  ${prefix}artinama
+  ${prefix}artimimpi
+  ${prefix}darkjokes
+  ${prefix}quotesmaker
+  ${prefix}asupan
+  ${prefix}jadwalsholat
 `
 }
 exports.edumenu = (prefix, pushname) => {
 	return `_*${ucapanWaktu} ${pushname !== undefined ? pushname : 'Kak'} 👋*_
 
- ${setting.sb2} *EDUCATION MENU*
- ${setting.sb} ${prefix}persegipanjang
- ${setting.sb} ${prefix}perkalian
- ${setting.sb} ${prefix}kuadrat
- ${setting.sb} ${prefix}kubik
- ${setting.sb} ${prefix}brainly
+  *EDUCATION MENU*
+  ${prefix}persegipanjang
+  ${prefix}perkalian
+  ${prefix}kuadrat
+  ${prefix}kubik
+  ${prefix}brainly
 `
 }
 exports.storemenu = (prefix, pushname) => {
 	return `_*${ucapanWaktu} ${pushname !== undefined ? pushname : 'Kak'} 👋*_
 
- ${setting.sb2} *STORE MENU*
- ${setting.sb} ${prefix}listff
- ${setting.sb} ${prefix}iklan
- ${setting.sb} proses
- ${setting.sb} done
+  *STORE MENU*
+  ${prefix}listff
+  ${prefix}iklan
+  proses
+  done
 `
 }
 exports.searchmenu = (prefix, pushname) => {
 	return `_*${ucapanWaktu} ${pushname !== undefined ? pushname : 'Kak'} 👋*_
 
- ${setting.sb2} *SEARCH MENU*
- ${setting.sb} ${prefix}lirik
- ${setting.sb} ${prefix}grupwa
- ${setting.sb} ${prefix}ytsearch
- ${setting.sb} ${prefix}gsmarena
- ${setting.sb} ${prefix}wallsearch
- ${setting.sb} ${prefix}googleimage
- ${setting.sb} ${prefix}playstore
- ${setting.sb} ${prefix}gimage
+  *SEARCH MENU*
+  ${prefix}lirik
+  ${prefix}grupwa
+  ${prefix}ytsearch
+  ${prefix}gsmarena
+  ${prefix}wallsearch
+  ${prefix}googleimage
+  ${prefix}playstore
+  ${prefix}gimage
 `
 }
 exports.spammenu = (prefix, pushname) => {
 	return `_*${ucapanWaktu} ${pushname !== undefined ? pushname : 'Kak'} 👋*_
  
- ${setting.sb2} *SPAM MENU*
- ${setting.sb} ${prefix}spamcall
- ${setting.sb} ${prefix}spamsms
- ${setting.sb} ${prefix}spamsms2
- ${setting.sb} ${prefix}spamsms3
- ${setting.sb} ${prefix}spamsms4
- ${setting.sb} ${prefix}spamsms5
- ${setting.sb} ${prefix}spamsms6
- ${setting.sb} ${prefix}spamsms7
- ${setting.sb} ${prefix}spamsms8
+  *SPAM MENU*
+  ${prefix}spamcall
+  ${prefix}spamsms
+  ${prefix}spamsms2
+  ${prefix}spamsms3
+  ${prefix}spamsms4
+  ${prefix}spamsms5
+  ${prefix}spamsms6
+  ${prefix}spamsms7
+  ${prefix}spamsms8
 `
 }
 exports.sertimenu = (prefix, pushname) => {
 	return `_*${ucapanWaktu} ${pushname !== undefined ? pushname : 'Kak'} 👋*_
  
- ${setting.sb2} *SERTIFIKAT MENU*
- ${setting.sb} ${prefix}tololserti
- ${setting.sb} ${prefix}fuckboy
- ${setting.sb} ${prefix}fuckgirl
- ${setting.sb} ${prefix}bucinserti
- ${setting.sb} ${prefix}pacarserti
- ${setting.sb} ${prefix}goodboy
- ${setting.sb} ${prefix}goodgirl
- ${setting.sb} ${prefix}badboy
- ${setting.sb} ${prefix}badgirl
+  *SERTIFIKAT MENU*
+  ${prefix}tololserti
+  ${prefix}fuckboy
+  ${prefix}fuckgirl
+  ${prefix}bucinserti
+  ${prefix}pacarserti
+  ${prefix}goodboy
+  ${prefix}goodgirl
+  ${prefix}badboy
+  ${prefix}badgirl
 `
 }
 exports.textpromenu = (prefix, pushname) => {
 	return `_*${ucapanWaktu} ${pushname !== undefined ? pushname : 'Kak'} 👋*_
  
- ${setting.sb2} *TEXT PRO MENU*
- ${setting.sb} ${prefix}berry
- ${setting.sb} ${prefix}blackpink
- ${setting.sb} ${prefix}neon
- ${setting.sb} ${prefix}logobear
- ${setting.sb} ${prefix}christmas
- ${setting.sb} ${prefix}box3d
- ${setting.sb} ${prefix}glitchtiktok
- ${setting.sb} ${prefix}videogame
- ${setting.sb} ${prefix}marvel
- ${setting.sb} ${prefix}ninjalogo
- ${setting.sb} ${prefix}greenhorror
- ${setting.sb} ${prefix}magma
- ${setting.sb} ${prefix}neon3d
- ${setting.sb} ${prefix}orangejuice
- ${setting.sb} ${prefix}chococake
- ${setting.sb} ${prefix}strawberry
- ${setting.sb} ${prefix}pencil
- ${setting.sb} ${prefix}thunder
- ${setting.sb} ${prefix}thunder2
- ${setting.sb} ${prefix}glitch
- ${setting.sb} ${prefix}glitch2
- ${setting.sb} ${prefix}greenneon
- ${setting.sb} ${prefix}skeleton
+  *TEXT PRO MENU*
+  ${prefix}berry
+  ${prefix}blackpink
+  ${prefix}neon
+  ${prefix}logobear
+  ${prefix}christmas
+  ${prefix}box3d
+  ${prefix}glitchtiktok
+  ${prefix}videogame
+  ${prefix}marvel
+  ${prefix}ninjalogo
+  ${prefix}greenhorror
+  ${prefix}magma
+  ${prefix}neon3d
+  ${prefix}orangejuice
+  ${prefix}chococake
+  ${prefix}strawberry
+  ${prefix}pencil
+  ${prefix}thunder
+  ${prefix}thunder2
+  ${prefix}glitch
+  ${prefix}glitch2
+  ${prefix}greenneon
+  ${prefix}skeleton
 `
 }
 exports.photooxymenu = (prefix, pushname) => {
 	return `_*${ucapanWaktu} ${pushname !== undefined ? pushname : 'Kak'} 👋*_
 
- ${setting.sb2} *PHOTOOXY MENU*
- ${setting.sb} ${prefix}flaming
- ${setting.sb} ${prefix}shadowsky
- ${setting.sb} ${prefix}narutomaker
- ${setting.sb} ${prefix}pubg
- ${setting.sb} ${prefix}undergrass
- ${setting.sb} ${prefix}harrypotter
- ${setting.sb} ${prefix}typography
- ${setting.sb} ${prefix}poflove
- ${setting.sb} ${prefix}coffecup
- ${setting.sb} ${prefix}nightsky
- ${setting.sb} ${prefix}carvedwood
- ${setting.sb} ${prefix}illuminated
- ${setting.sb} ${prefix}sweetcandy
+  *PHOTOOXY MENU*
+  ${prefix}flaming
+  ${prefix}shadowsky
+  ${prefix}narutomaker
+  ${prefix}pubg
+  ${prefix}undergrass
+  ${prefix}harrypotter
+  ${prefix}typography
+  ${prefix}poflove
+  ${prefix}coffecup
+  ${prefix}nightsky
+  ${prefix}carvedwood
+  ${prefix}illuminated
+  ${prefix}sweetcandy
 `
 }
 exports.ephotomenu = (prefix, pushname) => {
 	return `_*${ucapanWaktu} ${pushname !== undefined ? pushname : 'Kak'} 👋*_
 
- ${setting.sb2} *EPHOTO 360 MENU*
- ${setting.sb} ${prefix}randomcerti
- ${setting.sb} ${prefix}gplaybutton
- ${setting.sb} ${prefix}splaybutton
- ${setting.sb} ${prefix}igcertificate
- ${setting.sb} ${prefix}ffbanner
- ${setting.sb} ${prefix}cgravity
- ${setting.sb} ${prefix}hacker
- ${setting.sb} ${prefix}mlwall
- ${setting.sb} ${prefix}pubgmaskot
- ${setting.sb} ${prefix}aovwall
- ${setting.sb} ${prefix}gaminglogo
- ${setting.sb} ${prefix}fpslogo
- ${setting.sb} ${prefix}avatarlolnew
- ${setting.sb} ${prefix}lolbanner
- ${setting.sb} ${prefix}avatardota
- ${setting.sb} ${prefix}bflowera
- ${setting.sb} ${prefix}royaltext
- ${setting.sb} ${prefix}galaxystyle
- ${setting.sb} ${prefix}birthdaycake
- ${setting.sb} ${prefix}lighttext
- ${setting.sb} ${prefix}watercolor
- ${setting.sb} ${prefix}multicolor
- ${setting.sb} ${prefix}wetglass
- ${setting.sb} ${prefix}luxurygold
- ${setting.sb} ${prefix}heartshaped
- ${setting.sb} ${prefix}hologram3d
- ${setting.sb} ${prefix}gchrome
- ${setting.sb} ${prefix}greenbush
- ${setting.sb} ${prefix}metallogo
- ${setting.sb} ${prefix}starsnight
+  *EPHOTO 360 MENU*
+  ${prefix}randomcerti
+  ${prefix}gplaybutton
+  ${prefix}splaybutton
+  ${prefix}igcertificate
+  ${prefix}ffbanner
+  ${prefix}cgravity
+  ${prefix}hacker
+  ${prefix}mlwall
+  ${prefix}pubgmaskot
+  ${prefix}aovwall
+  ${prefix}gaminglogo
+  ${prefix}fpslogo
+  ${prefix}avatarlolnew
+  ${prefix}lolbanner
+  ${prefix}avatardota
+  ${prefix}bflowera
+  ${prefix}royaltext
+  ${prefix}galaxystyle
+  ${prefix}birthdaycake
+  ${prefix}lighttext
+  ${prefix}watercolor
+  ${prefix}multicolor
+  ${prefix}wetglass
+  ${prefix}luxurygold
+  ${prefix}heartshaped
+  ${prefix}hologram3d
+  ${prefix}gchrome
+  ${prefix}greenbush
+  ${prefix}metallogo
+  ${prefix}starsnight
 `
 }
 exports.animemenu = (prefix, pushname) => {
 	return `_*${ucapanWaktu} ${pushname !== undefined ? pushname : 'Kak'} 👋*_
  
- ${setting.sb2} *ANIME MENU*
- ${setting.sb} ${prefix}naruto
- ${setting.sb} ${prefix}yaoi
- ${setting.sb} ${prefix}loli
- ${setting.sb} ${prefix}waifu
- ${setting.sb} ${prefix}husbu
- ${setting.sb} ${prefix}hentai
+  *ANIME MENU*
+  ${prefix}naruto
+  ${prefix}yaoi
+  ${prefix}loli
+  ${prefix}waifu
+  ${prefix}husbu
+  ${prefix}hentai
 `
 }
 exports.stalkmenu = (prefix, pushname) => {
 	return `_*${ucapanWaktu} ${pushname !== undefined ? pushname : 'Kak'} 👋*_
  
- ${setting.sb2} *STALK MENU*
- ${setting.sb} ${prefix}ghstalk
- ${setting.sb} ${prefix}igstalk
- ${setting.sb} ${prefix}tiktokstalk
- ${setting.sb} ${prefix}stalkml
- ${setting.sb} ${prefix}stalkff
- ${setting.sb} ${prefix}stalkgenshin
- ${setting.sb} ${prefix}stalkcod
- ${setting.sb} ${prefix}stalkdomino
- ${setting.sb} ${prefix}stalkpubg
- ${setting.sb} ${prefix}stalksausage
+  *STALK MENU*
+  ${prefix}ghstalk
+  ${prefix}igstalk
+  ${prefix}tiktokstalk
+  ${prefix}stalkml
+  ${prefix}stalkff
+  ${prefix}stalkgenshin
+  ${prefix}stalkcod
+  ${prefix}stalkdomino
+  ${prefix}stalkpubg
+  ${prefix}stalksausage
 `
 }
 exports.gamemenu = (prefix, pushname) => {
 	return `_*${ucapanWaktu} ${pushname !== undefined ? pushname : 'Kak'} 👋*_
  
- ${setting.sb2} *GAME & FUN MENU*
- ${setting.sb} ${prefix}duithoki
- ${setting.sb} ${prefix}tictactoe
- ${setting.sb} ${prefix}delttc
- ${setting.sb} ${prefix}tebakgambar
- ${setting.sb} ${prefix}caklontong
- ${setting.sb} ${prefix}asahotak
- ${setting.sb} ${prefix}tebakjenaka
- ${setting.sb} ${prefix}tebakbendera
- ${setting.sb} ${prefix}siapakahaku
- ${setting.sb} ${prefix}susunkata
- ${setting.sb} ${prefix}dadu
+  *GAME & FUN MENU*
+  ${prefix}duithoki
+  ${prefix}tictactoe
+  ${prefix}delttc
+  ${prefix}tebakgambar
+  ${prefix}caklontong
+  ${prefix}asahotak
+  ${prefix}tebakjenaka
+  ${prefix}tebakbendera
+  ${prefix}siapakahaku
+  ${prefix}susunkata
+  ${prefix}dadu
 `
 }
 exports.bankmenu = (prefix, pushname) => {
 	return `_*${ucapanWaktu} ${pushname !== undefined ? pushname : 'Kak'} 👋*_
  
- ${setting.sb2} *PAYMENT & BANK*
- ${setting.sb} ${prefix}buylimit
- ${setting.sb} ${prefix}buyglimit
- ${setting.sb} ${prefix}transfer
- ${setting.sb} ${prefix}limit
- ${setting.sb} ${prefix}balance
+  *PAYMENT & BANK*
+  ${prefix}buylimit
+  ${prefix}buyglimit
+  ${prefix}transfer
+  ${prefix}limit
+  ${prefix}balance
 `
 }
 exports.groupmenu = (prefix, pushname) => {
 	return `_*${ucapanWaktu} ${pushname !== undefined ? pushname : 'Kak'} 👋*_
  
- ${setting.sb2} *GROUP MENU*
- ${setting.sb} ${prefix}groupsetting
- ${setting.sb} ${prefix}antilink
- ${setting.sb} ${prefix}welcome
- ${setting.sb} ${prefix}linkgrup
- ${setting.sb} ${prefix}setppgrup
- ${setting.sb} ${prefix}setnamegc
- ${setting.sb} ${prefix}setdesc
- ${setting.sb} ${prefix}group
- ${setting.sb} ${prefix}revoke
- ${setting.sb} ${prefix}hidetag
- ${setting.sb} ${prefix}tagall
- ${setting.sb} ${prefix}listadmin
- ${setting.sb} ${prefix}infogc
- ${setting.sb} ${prefix}promote
- ${setting.sb} ${prefix}demote
- ${setting.sb} ${prefix}add
- ${setting.sb} ${prefix}kick
- ${setting.sb} ${prefix}mute
+  *GROUP MENU*
+  ${prefix}groupsetting
+  ${prefix}antilink
+  ${prefix}welcome
+  ${prefix}linkgrup
+  ${prefix}setppgrup
+  ${prefix}setnamegc
+  ${prefix}setdesc
+  ${prefix}group
+  ${prefix}revoke
+  ${prefix}hidetag
+  ${prefix}tagall
+  ${prefix}listadmin
+  ${prefix}infogc
+  ${prefix}promote
+  ${prefix}demote
+  ${prefix}add
+  ${prefix}kick
+  ${prefix}mute
 `
 }
 exports.ownermenu = (prefix, pushname) => {
 	return `_*${ucapanWaktu} ${pushname !== undefined ? pushname : 'Kak'} 👋*_
  
- ${setting.sb2} *OWNER MENU*
+  *OWNER MENU*
  > evalcode
  x evalcode-2
  $ executor
- ${setting.sb} ${prefix}addbalance
- ${setting.sb} ${prefix}addlimit
- ${setting.sb} ${prefix}addglimit
- ${setting.sb} ${prefix}textchat
- ${setting.sb} ${prefix}chatprem
- ${setting.sb} ${prefix}setprefix
- ${setting.sb} ${prefix}masuk
- ${setting.sb} ${prefix}broadcast
- ${setting.sb} ${prefix}setppbot
- ${setting.sb} ${prefix}exif
- ${setting.sb} ${prefix}leave
- ${setting.sb} ${prefix}addprem
- ${setting.sb} ${prefix}delprem
- ${setting.sb} ${prefix}ban
- ${setting.sb} ${prefix}unban
- ${setting.sb} ${prefix}mode
- ${setting.sb} ${prefix}addsewa
- ${setting.sb} ${prefix}delsewa
- ${setting.sb} ${prefix}block
- ${setting.sb} ${prefix}unblock
+  ${prefix}addbalance
+  ${prefix}addlimit
+  ${prefix}addglimit
+  ${prefix}textchat
+  ${prefix}chatprem
+  ${prefix}setprefix
+  ${prefix}masuk
+  ${prefix}broadcast
+  ${prefix}setppbot
+  ${prefix}exif
+  ${prefix}leave
+  ${prefix}addprem
+  ${prefix}delprem
+  ${prefix}ban
+  ${prefix}unban
+  ${prefix}mode
+  ${prefix}addsewa
+  ${prefix}delsewa
+  ${prefix}block
+  ${prefix}unblock
 `
 }
 exports.othermenu = (prefix, pushname) => {
 	return `_*${ucapanWaktu} ${pushname !== undefined ? pushname : 'Kak'} 👋*_
  
- ${setting.sb2} *OTHER MENU*
- ${setting.sb} ${prefix}readmore
- ${setting.sb} ${prefix}getpp
- ${setting.sb} ${prefix}tts
- ${setting.sb} ${prefix}ppcp
- ${setting.sb} ${prefix}kontak
- ${setting.sb} ${prefix}covidglobal
- ${setting.sb} ${prefix}infogempa
- ${setting.sb} ${prefix}profile
+  *OTHER MENU*
+  ${prefix}readmore
+  ${prefix}getpp
+  ${prefix}tts
+  ${prefix}ppcp
+  ${prefix}kontak
+  ${prefix}covidglobal
+  ${prefix}infogempa
+  ${prefix}profile
 `
 }
