@@ -1,6 +1,6 @@
 {
   "wait": "*_Tunggu Sebentar Yah Kak, Permintaanmu Sedang Diproses_*",
-  "succses": "*Success By Hitomi Bot ✅*",
+  "succses": "*Success*",
   "error": {
     "Iv": "Link yang kamu berikan tidak valid",
     "api": "Maaf terjadi kesalahan"
